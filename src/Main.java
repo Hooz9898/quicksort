@@ -30,5 +30,16 @@ public class Main {
 
     public static void main(String[] args) {
 
+            String arr[] = new String[6];
+            arr[0] = "Lemon";
+            arr[1] = "Blueberry";
+            arr[2] = "Apple";
+            arr[3] = "Banana";
+            arr[4] = "Mogiliski";
+            arr[5] = "Cookie";
+            arr[6] = "POTATO";
+
+            quickSort(arr, 0, 6);
+
         }
     }
