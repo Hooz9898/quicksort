@@ -7,6 +7,15 @@ public class Main {
         String piv = arr[end];
         int test = start - 1;
 
+        for(int j = start; j < end; j++){
+            if(arr[j].compareTo(piv) < 0){
+                test++;
+                String temp = arr[test];
+                arr[test] = arr[j];
+                arr[j] = temp;
+            }
+        }
+
 
 
     }
